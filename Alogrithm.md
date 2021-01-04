@@ -25,3 +25,8 @@
 2. Zip 함수 
    -  list(x * y for x, y in zip(a, b)) 를 하면 x * y 배열을 리턴
    - 2차 배열 뒤집기 : list(map(list, zip(*배열))) 하면 뒤집어짐
+   
+3.  recursion
+
+    - import sys
+    - sys.setrecursionlimit(10**6)
