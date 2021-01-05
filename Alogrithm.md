@@ -2,7 +2,7 @@
 
 ### Python
 
-> 파이썬 문제들을 풀면서 간단한 팁, 내장함수를 정리한 것.
+> 파이썬 문제들을 풀면서 간단한 팁, 내장함수를 정리한 것!
 
 
 
@@ -25,3 +25,8 @@
 2. Zip 함수 
    -  list(x * y for x, y in zip(a, b)) 를 하면 x * y 배열을 리턴
    - 2차 배열 뒤집기 : list(map(list, zip(*배열))) 하면 뒤집어짐
+   
+3.  recursion
+
+    - import sys
+    - sys.setrecursionlimit(10**6)
