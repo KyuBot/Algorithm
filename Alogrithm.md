@@ -30,3 +30,11 @@
 
     - import sys
     - sys.setrecursionlimit(10**6)
+    
+4.   for 문 간단하게 쓰는법 
+
+    - [x for x in range(100)]
+    
+5.  input 받는법
+
+    - N, M = map(int, input().split())
