@@ -38,3 +38,24 @@
 5.  input 받는법
 
     - N, M = map(int, input().split())
+    
+6.  index 와 find 의 차이점
+
+    > 둘다 문자열에서 값을 찾아 index를 반환하지만, find는 없으면 -1을 반환, index는 valueError. 따라서 find를 권장한다.
+    
+    * 주의사항 : find는 문자열 형태에서만 사용가능하고, index는 list도 가능하다.
+    * index는 숫자도 찾을 수 있으니, 상황에 따라 사용하는 것을 권장.
+    
+7.   숫자판단 함수
+
+    1. isdigit() => 숫자가 맞는지 판단. 이때 3² 도 숫자로 판단. 단일 글자가 숫자로 생겼으면 True
+    2. isdecimal() => 숫자가 맞는지 판단. 이때 3²은 숫자로 판단하지 않는다. int형 불가로 판단.
+    3. isnumeric() => 숫자가 맞는지 판단. 이떄 3²과 숫자값 표현에 해당하는 문자열까지 인정한다. 제곱근 및 분수, 거듭제곱 특수문자도 isnumeric() 함수는 True를 반환.
+
+8.   for 과 if의 조함
+
+    - [x for x in range(arr) if x % 2 == 0]
+
+9.  if 조건
+
+    > if 조건식: True 결과값 = False 결과값
