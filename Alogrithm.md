@@ -59,3 +59,17 @@
 9.  if 조건
 
     > if 조건식: True 결과값 = False 결과값
+    
+10.  import collections
+
+     > collections.Counter(리스트) = > 리스트를 개수를 세서 딕셔너리로 반환 해준다.
+     >
+     > 이때 딕셔너리는 앞에서 부터 순서대로 큰 갯수부터 해준다
+     >
+     > 그리고 dict - dict 가 가능하다는 사실..
+
+11.  enumerate
+
+     > for idx, result in enumerate(리스트):
+     >
+     > ​	인덱스와 값이 동시에 나옴!
