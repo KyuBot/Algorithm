@@ -73,3 +73,7 @@
      > for idx, result in enumerate(리스트):
      >
      > ​	인덱스와 값이 동시에 나옴!
+     
+12.  import math
+
+     > math.gcm(a, b) = > 최대공약수를 구할 수 있음.
