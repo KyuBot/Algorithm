@@ -77,3 +77,5 @@
 12.  import math
 
      > math.gcm(a, b) = > 최대공약수를 구할 수 있음.
+     
+13.  
