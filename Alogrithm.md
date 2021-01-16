@@ -77,5 +77,6 @@
 12.  import math
 
      > math.gcm(a, b) = > 최대공약수를 구할 수 있음.
+     >
+     > lcm 은 gcm을 구한후 A * B = lcm * gcm 으로 구할 수 있다.
      
-13.  
