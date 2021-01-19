@@ -80,3 +80,10 @@
      >
      > lcm 은 gcm을 구한후 A * B = lcm * gcm 으로 구할 수 있다.
      
+13.  import itertools
+
+     > import itertools
+     >
+     > combinations(list, num) => num 개수만큼 조합
+     >
+     > permutations(list, num) => num 개수만큼 순열
