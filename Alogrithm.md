@@ -87,3 +87,6 @@
      > combinations(list, num) => num 개수만큼 조합
      >
      > permutations(list, num) => num 개수만큼 순열
+
+14. 문자판단 
+    - isalpha()를 쓰면된다.
